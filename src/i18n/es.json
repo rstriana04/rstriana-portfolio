@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "resume": "Currículum",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Robert Sty Triana",
+    "title": "Desarrollador Fullstack",
+    "subtitle": "Especializado en soluciones web modernas con Angular, Node.js, Firebase y AWS",
+    "cta_work": "Ver mi trabajo",
+    "cta_contact": "Contáctame"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Algunos de mis trabajos más recientes",
+    "demo": "Demo",
+    "code": "Código",
+    "items": [
+      {
+        "title": "Sistema de Gestión Empresarial",
+        "description": "Plataforma completa para gestión de recursos empresariales con dashboard en tiempo real",
+        "tech": ["Angular", "Node.js", "PostgreSQL", "AWS"]
+      },
+      {
+        "title": "E-commerce Moderno",
+        "description": "Tienda online con carrito de compras, pagos integrados y panel administrativo",
+        "tech": ["React", "Firebase", "Stripe", "TailwindCSS"]
+      },
+      {
+        "title": "API RESTful Escalable",
+        "description": "Backend robusto con autenticación JWT, rate limiting y documentación automática",
+        "tech": ["Node.js", "Express", "MongoDB", "Docker"]
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy un desarrollador fullstack con más de 5 años de experiencia creando aplicaciones web escalables y soluciones innovadoras. Mi enfoque está en escribir código limpio, mantenible y eficiente.",
+    "paragraph2": "Me apasiona aprender nuevas tecnologías y aplicar las mejores prácticas de desarrollo. Siempre busco crear experiencias de usuario excepcionales mientras mantengo la calidad técnica del código.",
+    "tech_title": "Tecnologías principales",
+    "availability": "Disponible para proyectos freelance o colaboraciones"
+  },
+  "resume": {
+    "title": "Mi Currículum",
+    "subtitle": "Descarga mi currículum profesional completo",
+    "download_name": "Robert-Triana",
+    "stats": {
+      "experience": "Experiencia",
+      "experience_value": "5+ Años",
+      "projects": "Proyectos",
+      "projects_value": "50+",
+      "certifications": "Certificaciones",
+      "certifications_value": "10+"
+    },
+    "card": {
+      "front": {
+        "title": "Currículum Profesional",
+        "description": "Desarrollador full-stack especializado en tecnologías web modernas",
+        "flip_hint": "✨ Haz clic para ver detalles",
+        "click_to_view": "Toca o pasa el cursor para voltear"
+      },
+      "back": {
+        "title": "Listo para Descargar",
+        "description": "Obtén mi currículum profesional completo en formato PDF",
+        "format": "Formato",
+        "language": "Idioma",
+        "updated": "Última Actualización",
+        "updated_date": "Oct 2025",
+        "download_button": "Descargar Currículum",
+        "flip_back_hint": "Haz clic para voltear"
+      }
+    }
+  },
+  "contact": {
+    "title": "Hablemos",
+    "subtitle": "¿Tienes un proyecto en mente? Envíame un mensaje",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "send": "Enviar mensaje",
+      "sending": "Enviando..."
+    },
+    "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
+    "error": "Hubo un error al enviar el mensaje. Por favor, intenta nuevamente."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
+
+

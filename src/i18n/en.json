@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Robert Sty Triana",
+    "title": "Fullstack Developer",
+    "subtitle": "Specialized in modern web solutions with Angular, Node.js, Firebase and AWS",
+    "cta_work": "View my work",
+    "cta_contact": "Contact me"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Some of my most recent work",
+    "demo": "Demo",
+    "code": "Code",
+    "items": [
+      {
+        "title": "Enterprise Management System",
+        "description": "Complete platform for enterprise resource management with real-time dashboard",
+        "tech": ["Angular", "Node.js", "PostgreSQL", "AWS"]
+      },
+      {
+        "title": "Modern E-commerce",
+        "description": "Online store with shopping cart, integrated payments and admin panel",
+        "tech": ["React", "Firebase", "Stripe", "TailwindCSS"]
+      },
+      {
+        "title": "Scalable RESTful API",
+        "description": "Robust backend with JWT authentication, rate limiting and automatic documentation",
+        "tech": ["Node.js", "Express", "MongoDB", "Docker"]
+      }
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm a fullstack developer with over 5 years of experience building scalable web applications and innovative solutions. My focus is on writing clean, maintainable, and efficient code.",
+    "paragraph2": "I'm passionate about learning new technologies and applying best development practices. I always strive to create exceptional user experiences while maintaining code quality.",
+    "tech_title": "Main technologies",
+    "availability": "Available for freelance projects or collaborations"
+  },
+  "resume": {
+    "title": "My Resume",
+    "subtitle": "Download my complete professional resume",
+    "download_name": "Robert-Triana",
+    "stats": {
+      "experience": "Experience",
+      "experience_value": "5+ Years",
+      "projects": "Projects",
+      "projects_value": "50+",
+      "certifications": "Certifications",
+      "certifications_value": "10+"
+    },
+    "card": {
+      "front": {
+        "title": "Professional Resume",
+        "description": "Full-stack developer specialized in modern web technologies",
+        "flip_hint": "✨ Click to view details",
+        "click_to_view": "Tap or hover to flip"
+      },
+      "back": {
+        "title": "Ready to Download",
+        "description": "Get my complete professional resume in PDF format",
+        "format": "Format",
+        "language": "Language",
+        "updated": "Last Updated",
+        "updated_date": "Oct 2025",
+        "download_button": "Download Resume",
+        "flip_back_hint": "Click to flip back"
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Have a project in mind? Send me a message",
+    "form": {
+      "name": "Full name",
+      "email": "Email address",
+      "message": "Message",
+      "send": "Send message",
+      "sending": "Sending..."
+    },
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "There was an error sending the message. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
+
+

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply m-0 p-0 font-inter antialiased;
+    @apply bg-[radial-gradient(ellipse_at_center,_#0C1628_0%,_#071123_100%)];
+    @apply text-primary-text;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-3 rounded-xl font-medium;
+    @apply bg-primary-accent text-white;
+    @apply transition-all duration-300;
+    @apply hover:shadow-[0_0_15px_#1E3A8A];
+    @apply active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-3 rounded-xl font-medium;
+    @apply border-2 border-primary-accent text-primary-accent;
+    @apply transition-all duration-300;
+    @apply hover:bg-primary-accent hover:text-white;
+    @apply hover:shadow-[0_0_15px_#1E3A8A];
+    @apply active:scale-95;
+  }
+
+  .glass-card {
+    @apply bg-white bg-opacity-5 backdrop-blur-lg;
+    @apply border border-white border-opacity-10;
+    @apply rounded-2xl p-6;
+    @apply transition-all duration-300;
+    @apply hover:bg-opacity-10 hover:border-opacity-20;
+    @apply hover:shadow-[0_8px_32px_rgba(30,58,138,0.2)];
+    @apply hover:scale-105;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 md:px-12 py-20;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold mb-4;
+    @apply bg-gradient-to-r from-primary-text to-primary-accent;
+    @apply bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .glow-text {
+    @apply drop-shadow-[0_0_10px_rgba(30,58,138,0.5)];
+  }
+
+  .gradient-border {
+    @apply relative;
+  }
+
+  .gradient-border::before {
+    @apply content-[''] absolute inset-0 rounded-2xl p-[2px];
+    @apply bg-gradient-to-r from-primary-accent to-transparent;
+    @apply -z-10;
+  }
+}
+
+
