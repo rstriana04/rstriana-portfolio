@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Robert Sty Triana - Desarrollador Fullstack | Angular, Node.js, AWS",
-    "description": "Desarrollador Fullstack experimentado especializado en soluciones web modernas con Angular, React, Node.js, Firebase y AWS. Más de 5 años construyendo aplicaciones escalables y plataformas eCommerce innovadoras.",
+    "description": "Desarrollador Fullstack especializado en soluciones web modernas con Angular, React, Node.js, Firebase y AWS. Construyendo aplicaciones escalables y plataformas eCommerce innovadoras.",
     "keywords": "desarrollador fullstack, desarrollador web, desarrollador Angular, desarrollador React, Node.js, AWS, Firebase, JavaScript, TypeScript, portafolio, Robert Triana, ingeniero de software"
   },
   "nav": {
@@ -15,7 +15,7 @@
     "greeting": "Hola, soy",
     "name": "Robert Sty Triana",
     "title": "Desarrollador Fullstack",
-    "subtitle": "Especializado en soluciones web modernas con Angular, Node.js, Firebase y AWS",
+    "subtitle": "Especializado en soluciones web modernas con Angular, React, Node.js, Firebase y AWS",
     "cta_work": "Ver mi trabajo",
     "cta_contact": "Contáctame"
   },
@@ -53,7 +53,7 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy un desarrollador fullstack con más de 5 años de experiencia creando aplicaciones web escalables y soluciones innovadoras. Mi enfoque está en escribir código limpio, mantenible y eficiente.",
+    "paragraph1": "Soy un desarrollador fullstack, especializado en crear aplicaciones web escalables y soluciones innovadoras. Mi enfoque está en escribir código limpio, mantenible y eficiente, con un historial comprobado de proyectos exitosos.",
     "paragraph2": "Me apasiona aprender nuevas tecnologías y aplicar las mejores prácticas de desarrollo. Siempre busco crear experiencias de usuario excepcionales mientras mantengo la calidad técnica del código.",
     "tech_title": "Tecnologías principales",
     "availability": "Disponible para proyectos freelance o colaboraciones"
@@ -63,8 +63,6 @@
     "subtitle": "Descarga mi currículum profesional completo",
     "download_name": "Robert-Triana",
     "stats": {
-      "experience": "Experiencia",
-      "experience_value": "5+ Años",
       "projects": "Proyectos",
       "projects_value": "10+",
       "certifications": "Certificaciones",

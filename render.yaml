@@ -12,7 +12,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: PORT
-        value: 10000
+        value: 3001
       - key: RESEND_API_KEY
         sync: false
       - key: FROM_EMAIL
