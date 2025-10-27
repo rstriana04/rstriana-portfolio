@@ -1,4 +1,9 @@
 {
+  "seo": {
+    "title": "Robert Sty Triana - Desarrollador Fullstack | Angular, Node.js, AWS",
+    "description": "Desarrollador Fullstack experimentado especializado en soluciones web modernas con Angular, React, Node.js, Firebase y AWS. Más de 5 años construyendo aplicaciones escalables y plataformas eCommerce innovadoras.",
+    "keywords": "desarrollador fullstack, desarrollador web, desarrollador Angular, desarrollador React, Node.js, AWS, Firebase, JavaScript, TypeScript, portafolio, Robert Triana, ingeniero de software"
+  },
   "nav": {
     "home": "Inicio",
     "projects": "Proyectos",
@@ -21,19 +26,28 @@
     "code": "Código",
     "items": [
       {
-        "title": "Sistema de Gestión Empresarial",
-        "description": "Plataforma completa para gestión de recursos empresariales con dashboard en tiempo real",
-        "tech": ["Angular", "Node.js", "PostgreSQL", "AWS"]
+        "title": "🛰️ Simpliti",
+        "description": "Plataforma eCommerce global de eSIMs digitales, desarrollada con Next.js 15 y React 18. Integra Shopify para gestión de catálogo y Stripe para pagos, conectando con APIs de eSIM Go y eSIM Access para comprar e instalar eSIMs internacionales en minutos.",
+        "tech": ["Next.js 15", "React 18", "Shopify", "Stripe", "eSIM APIs"],
+        "demoUrl": "https://simpliti.us",
+        "codeUrl": "",
+        "image": "/projects/simpliti.png"
       },
       {
-        "title": "E-commerce Moderno",
-        "description": "Tienda online con carrito de compras, pagos integrados y panel administrativo",
-        "tech": ["React", "Firebase", "Stripe", "TailwindCSS"]
+        "title": "☕ Caffelia",
+        "description": "Plataforma de comercio electrónico de café colombiano de especialidad, desarrollada con Medusa.js y React. Conecta consumidores con caficultores locales, integrando MercadoPago para pagos y la API de MiPaquete.com para logística automatizada.",
+        "tech": ["Medusa.js", "React", "MercadoPago", "MiPaquete API"],
+        "demoUrl": "https://caffelia.co",
+        "codeUrl": "",
+        "image": "/projects/caffelia.png"
       },
       {
-        "title": "API RESTful Escalable",
-        "description": "Backend robusto con autenticación JWT, rate limiting y documentación automática",
-        "tech": ["Node.js", "Express", "MongoDB", "Docker"]
+        "title": "⚽ API Football",
+        "description": "Plataforma modular y responsive que conecta y visualiza datos en tiempo real desde APIs deportivas. Desarrollada con React 19, Vite y TailwindCSS, ofrece estadísticas históricas, resultados en vivo y visualizaciones adaptables.",
+        "tech": ["React 19", "Vite", "TailwindCSS", "Sports APIs"],
+        "demoUrl": "",
+        "codeUrl": "https://github.com/rstriana04/football-live-results",
+        "image": "/projects/api-football.png"
       }
     ]
   },
@@ -52,9 +66,9 @@
       "experience": "Experiencia",
       "experience_value": "5+ Años",
       "projects": "Proyectos",
-      "projects_value": "50+",
+      "projects_value": "10+",
       "certifications": "Certificaciones",
-      "certifications_value": "10+"
+      "certifications_value": "2+"
     },
     "card": {
       "front": {
@@ -85,8 +99,10 @@
       "send": "Enviar mensaje",
       "sending": "Enviando..."
     },
-    "success": "¡Mensaje enviado con éxito! Te responderé pronto.",
-    "error": "Hubo un error al enviar el mensaje. Por favor, intenta nuevamente."
+    "success": "¡Éxito!",
+    "successMessage": "¡Mensaje enviado con éxito! Te responderé pronto.",
+    "error": "¡Oops!",
+    "errorMessage": "Hubo un error al enviar el mensaje. Por favor, intenta nuevamente."
   },
   "footer": {
     "rights": "Todos los derechos reservados"
