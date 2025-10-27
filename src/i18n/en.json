@@ -1,4 +1,9 @@
 {
+  "seo": {
+    "title": "Robert Sty Triana - Fullstack Developer | Angular, Node.js, AWS",
+    "description": "Experienced Fullstack Developer specializing in modern web solutions with Angular, React, Node.js, Firebase, and AWS. 5+ years building scalable applications and innovative eCommerce platforms.",
+    "keywords": "fullstack developer, web developer, Angular developer, React developer, Node.js, AWS, Firebase, JavaScript, TypeScript, portfolio, Robert Triana, software engineer"
+  },
   "nav": {
     "home": "Home",
     "projects": "Projects",
@@ -21,19 +26,28 @@
     "code": "Code",
     "items": [
       {
-        "title": "Enterprise Management System",
-        "description": "Complete platform for enterprise resource management with real-time dashboard",
-        "tech": ["Angular", "Node.js", "PostgreSQL", "AWS"]
+        "title": "🛰️ Simpliti",
+        "description": "Global eCommerce platform for digital eSIMs, built with Next.js 15 and React 18. Integrates Shopify for catalog management and Stripe for payments, connecting with eSIM Go and eSIM Access APIs to enable international eSIM purchases in minutes.",
+        "tech": ["Next.js 15", "React 18", "Shopify", "Stripe", "eSIM APIs"],
+        "demoUrl": "https://simpliti.us",
+        "codeUrl": "",
+        "image": "/projects/simpliti.png"
       },
       {
-        "title": "Modern E-commerce",
-        "description": "Online store with shopping cart, integrated payments and admin panel",
-        "tech": ["React", "Firebase", "Stripe", "TailwindCSS"]
+        "title": "☕ Caffelia",
+        "description": "eCommerce platform for Colombian specialty coffee, developed with Medusa.js and React. Connects consumers with local coffee growers, integrating MercadoPago for payments and MiPaquete.com API for automated nationwide shipping.",
+        "tech": ["Medusa.js", "React", "MercadoPago", "MiPaquete API"],
+        "demoUrl": "https://caffelia.co",
+        "codeUrl": "",
+        "image": "/projects/caffelia.png"
       },
       {
-        "title": "Scalable RESTful API",
-        "description": "Robust backend with JWT authentication, rate limiting and automatic documentation",
-        "tech": ["Node.js", "Express", "MongoDB", "Docker"]
+        "title": "⚽ API Football",
+        "description": "Modular and responsive platform designed to connect and display real-time data from sports APIs. Built with React 19, Vite, and TailwindCSS, delivering historical stats, live results, and adaptable visualizations.",
+        "tech": ["React 19", "Vite", "TailwindCSS", "Sports APIs"],
+        "demoUrl": "",
+        "codeUrl": "https://github.com/rstriana04/football-live-results",
+        "image": "/projects/api-football.png"
       }
     ]
   },
@@ -52,9 +66,9 @@
       "experience": "Experience",
       "experience_value": "5+ Years",
       "projects": "Projects",
-      "projects_value": "50+",
+      "projects_value": "10+",
       "certifications": "Certifications",
-      "certifications_value": "10+"
+      "certifications_value": "2+"
     },
     "card": {
       "front": {
@@ -85,8 +99,10 @@
       "send": "Send message",
       "sending": "Sending..."
     },
-    "success": "Message sent successfully! I'll get back to you soon.",
-    "error": "There was an error sending the message. Please try again."
+    "success": "Success!",
+    "successMessage": "Message sent successfully! I'll get back to you soon.",
+    "error": "Oops!",
+    "errorMessage": "There was an error sending the message. Please try again."
   },
   "footer": {
     "rights": "All rights reserved"

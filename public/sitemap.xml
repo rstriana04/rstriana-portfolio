@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rstriana.com/</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rstriana.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://rstriana.com/?lang=es" />
+  </url>
+  
+  <url>
+    <loc>https://rstriana.com/#projects</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rstriana.com/#projects" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://rstriana.com/?lang=es#projects" />
+  </url>
+  
+  <url>
+    <loc>https://rstriana.com/#about</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rstriana.com/#about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://rstriana.com/?lang=es#about" />
+  </url>
+  
+  <url>
+    <loc>https://rstriana.com/#resume</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rstriana.com/#resume" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://rstriana.com/?lang=es#resume" />
+  </url>
+  
+  <url>
+    <loc>https://rstriana.com/#contact</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rstriana.com/#contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://rstriana.com/?lang=es#contact" />
+  </url>
+
+</urlset>
+

@@ -52,8 +52,8 @@ const About = () => {
               {t('about.paragraph2')}
             </p>
 
-            <div className="inline-block px-6 py-3 bg-primary-accent bg-opacity-20 rounded-xl border border-primary-accent border-opacity-30">
-              <p className="text-primary-accent font-medium">
+            <div className="inline-block px-6 py-3 bg-primary-accent bg-opacity-20 rounded-xl border border-blue-400 border-opacity-50">
+              <p className="text-blue-300 font-medium">
                 ✨ {t('about.availability')}
               </p>
             </div>
