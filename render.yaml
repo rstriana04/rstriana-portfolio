@@ -5,14 +5,14 @@ services:
     env: node
     region: oregon
     plan: free
-    buildCommand: npm install
+    buildCommand: npm install --production=false
     startCommand: node server/index.js
     healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
-        value: 3001
+        value: 10000
       - key: RESEND_API_KEY
         sync: false
       - key: FROM_EMAIL

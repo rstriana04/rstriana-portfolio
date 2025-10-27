@@ -31,10 +31,12 @@ Region: Oregon (or closest to your users)
 Branch: main (or your production branch)
 Root Directory: (leave empty)
 Runtime: Node
-Build Command: npm install
+Build Command: npm install --production=false
 Start Command: node server/index.js
 Plan: Free
 ```
+
+**Important**: The `--production=false` flag ensures all dependencies are installed (Render needs them even though they're listed as devDependencies).
 
 ### Step 2: Add Environment Variables
 
@@ -42,12 +44,13 @@ In Render dashboard, add these environment variables:
 
 ```
 NODE_ENV=production
-PORT=3001
 RESEND_API_KEY=your_actual_resend_api_key
 FROM_EMAIL=onboarding@resend.dev
 TO_EMAIL=me@rstriana.com
 ALLOWED_ORIGINS=https://rstriana.com,https://rstriana.dev,https://www.rstriana.com
 ```
+
+**Note**: Don't set PORT manually - Render automatically sets it to 10000.
 
 ### Step 3: Deploy
 
