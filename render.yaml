@@ -5,7 +5,7 @@ services:
     env: node
     region: oregon
     plan: free
-    buildCommand: npm install
+    buildCommand: npm install --production=false
     startCommand: node server/index.js
     healthCheckPath: /api/health
     envVars:

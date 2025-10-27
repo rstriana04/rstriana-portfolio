@@ -1,15 +1,16 @@
 import { useTranslation } from 'react-i18next';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: FaGithub, url: 'https://github.com', label: 'GitHub' },
-    { icon: FaLinkedin, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaTwitter, url: 'https://twitter.com', label: 'Twitter' },
-    { icon: FaEnvelope, url: 'mailto:contact@example.com', label: 'Email' },
+    { icon: FaGithub, url: 'https://github.com/rstriana04', label: 'GitHub' },
+    { icon: FaLinkedin, url: 'https://www.linkedin.com/in/rstriana04', label: 'LinkedIn' },
+    { icon: FaXTwitter, url: 'https://x.com/rstriana04', label: 'X' },
+    { icon: FaEnvelope, url: 'mailto:me@rstriana.com', label: 'Email' },
   ];
 
   return (

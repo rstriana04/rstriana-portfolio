@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Robert Sty Triana - Fullstack Developer | Angular, Node.js, AWS",
-    "description": "Experienced Fullstack Developer specializing in modern web solutions with Angular, React, Node.js, Firebase, and AWS. 5+ years building scalable applications and innovative eCommerce platforms.",
+    "description": "Fullstack Developer specializing in modern web solutions with Angular, React, Node.js, Firebase, and AWS. Building scalable applications and innovative eCommerce platforms.",
     "keywords": "fullstack developer, web developer, Angular developer, React developer, Node.js, AWS, Firebase, JavaScript, TypeScript, portfolio, Robert Triana, software engineer"
   },
   "nav": {
@@ -15,7 +15,7 @@
     "greeting": "Hi, I'm",
     "name": "Robert Sty Triana",
     "title": "Fullstack Developer",
-    "subtitle": "Specialized in modern web solutions with Angular, Node.js, Firebase and AWS",
+    "subtitle": "Specialized in modern web solutions with Angular, React, Node.js, Firebase and AWS",
     "cta_work": "View my work",
     "cta_contact": "Contact me"
   },
@@ -53,7 +53,7 @@
   },
   "about": {
     "title": "About Me",
-    "paragraph1": "I'm a fullstack developer with over 5 years of experience building scalable web applications and innovative solutions. My focus is on writing clean, maintainable, and efficient code.",
+    "paragraph1": "I'm a fullstack developer specializing in building scalable web applications and innovative solutions. My focus is on writing clean, maintainable, and efficient code, with a proven track record of successful projects.",
     "paragraph2": "I'm passionate about learning new technologies and applying best development practices. I always strive to create exceptional user experiences while maintaining code quality.",
     "tech_title": "Main technologies",
     "availability": "Available for freelance projects or collaborations"
@@ -63,8 +63,6 @@
     "subtitle": "Download my complete professional resume",
     "download_name": "Robert-Triana",
     "stats": {
-      "experience": "Experience",
-      "experience_value": "5+ Years",
       "projects": "Projects",
       "projects_value": "10+",
       "certifications": "Certifications",

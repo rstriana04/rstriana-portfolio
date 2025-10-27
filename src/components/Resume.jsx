@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { HiDownload, HiDocumentText, HiCode, HiBriefcase, HiAcademicCap } from 'react-icons/hi';
+import { HiDownload, HiDocumentText, HiCode, HiAcademicCap } from 'react-icons/hi';
 
 const Resume = () => {
   const { t, i18n } = useTranslation();
@@ -22,7 +22,6 @@ const Resume = () => {
   };
 
   const stats = [
-    { icon: HiBriefcase, label: t('resume.stats.experience'), value: t('resume.stats.experience_value') },
     { icon: HiCode, label: t('resume.stats.projects'), value: t('resume.stats.projects_value') },
     { icon: HiAcademicCap, label: t('resume.stats.certifications'), value: t('resume.stats.certifications_value') },
   ];
@@ -94,7 +93,7 @@ const Resume = () => {
                         {t('resume.card.front.description')}
                       </p>
 
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8">
+                      <div className="flex justify-center gap-8 md:gap-12 mb-6 md:mb-8">
                         {stats.map((stat, index) => (
                           <motion.div
                             key={index}
